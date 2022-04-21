@@ -33,6 +33,7 @@ body
     animation: change-background 4s ease infinite;
     padding: 0px;
     margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -42,18 +43,21 @@ header
 {
     
     margin: 0px;
-    color: rgb(234, 47, 47);
+    color: rgb(4, 27, 25);
     text-align: center;
 }
 
 a {
     outline: none;
     text-decoration: none;
-    padding: 2px 1px 0;
+    padding: 2px 1px 2px;
+    
   }
   
   a:link {
     color: #265301;
+    border: 1px solid;
+    border-color: red;
   }
   
   a:visited {
@@ -71,7 +75,8 @@ a {
   }
   
   a:active {
-    background: #265301;
+    border-bottom: 1px solid;   
+    background: #ff1111;
     color: #CDFEAA;
   }
 
@@ -118,6 +123,7 @@ box-shadow: 1px 3px 26px 18px rgba(37,255,225,0.36);
     border-radius: 10px;
     border: 10px;
     padding: 10px;
+    width: 10px;
 }
 figure:hover {
     transform:scale(1.10);
