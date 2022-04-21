@@ -1,2 +1,2 @@
 # The-Collection
-## Ceci est un exercice un but pédagogique
+## Ceci est un exercice a but pédagogique
