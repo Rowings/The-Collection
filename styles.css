@@ -23,14 +23,20 @@ figure
     padding: 30px;
     padding-top: 10px;
 } */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body
 {
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-   
+    /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    background-color: ##69b7eb;
+    animation: change-background 4s ease infinite;
     padding: 0px;
     margin: 0px;
 }
+
+
+
 
 header
 {
@@ -100,12 +106,11 @@ figure
     padding-top: 10px;
     border: 5px rgba(246, 143, 0, 0.644);
     border-radius: 10px;
-    min-width: 200px;
+    min-width: 100px;
     max-width: 200px;
     /* box-shadow: 10px 5px 5px rgb(0, 0, 0); */
-    -webkit-box-shadow: -38px 4px 113px 4px rgba(14,35,46,1);
--moz-box-shadow: -38px 4px 113px 4px rgba(14,35,46,1);
-box-shadow: -38px 4px 113px 4px rgba(14,35,46,1);
+    -webkit-box-shadow: 1px 3px 26px 18px rgba(37,255,225,0.36); 
+box-shadow: 1px 3px 26px 18px rgba(37,255,225,0.36);
 }
 
 .button {
@@ -120,9 +125,14 @@ figure:hover {
 
 }
 
-@keyframes hue-animation {
+@keyframes change-background {
+    0% {
+      background: #69b7eb;
+    }
+    50% {
+      background: #b3dbd3;
+    }
     100% {
-        filter: hue-rotate(360deg)
-    }   
-}
-
+      background: #69b7eb;
+    }
+  }
